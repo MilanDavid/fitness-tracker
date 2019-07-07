@@ -1,7 +1,7 @@
 <ul class="week">
   <li *ngFor="let wk of week" class="day">
-    <a href="">{{ wk.timestamp | date: 'd' }}</a>
-    <br>
-    <a href="">{{ wk.timestamp | date: 'EEE' }}</a>
+    <div [routerLink]="['/day-detail/',wk.timestamp]">
+      <p class="day-button" >{{ wk.timestamp | date: 'd' | uppercase }} <br> {{ wk.timestamp | date: 'EEE' | uppercase }}</p>
+    </div>
   </li>
 </ul>

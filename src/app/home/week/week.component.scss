@@ -1,13 +1,27 @@
 .week {
-
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0px 18px 0px 18px;
 }
 
 .day {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 23px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 23px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.day-button {
+    height: 38px;
+    width: 38px;
+    margin: 11px;
     text-align: center;
     vertical-align: middle;
-    background-color: rgba(255, 255, 255, 0.25);
+    font-size: 16px;
+    font-weight: medium;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
 }

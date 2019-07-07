@@ -5,7 +5,7 @@ import { DayDetailsComponent } from './day-details/day-details.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'day-detail', component: DayDetailsComponent }
+  { path: 'day-detail/:timestamp', component: DayDetailsComponent }
 ];
 
 @NgModule({
