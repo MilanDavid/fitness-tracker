@@ -1,0 +1,7 @@
+<ul class="week">
+  <li *ngFor="let wk of week" class="day">
+    <a href="">{{ wk.timestamp | date: 'd' }}</a>
+    <br>
+    <a href="">{{ wk.timestamp | date: 'EEE' }}</a>
+  </li>
+</ul>
