@@ -10,6 +10,7 @@ import { WeekComponent } from './home/week/week.component';
 import { DataService } from './services/data.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ActivityComponent } from './home/activity/activity.component';
+import { StepsComponent } from './home/steps/steps.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ActivityComponent } from './home/activity/activity.component';
     DayDetailsComponent,
     WelcomeComponent,
     WeekComponent,
-    ActivityComponent
+    ActivityComponent,
+    StepsComponent
   ],
   imports: [
     BrowserModule,

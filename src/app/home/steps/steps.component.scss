@@ -1,9 +1,9 @@
-.activity {
+.steps {
   width: 340px;
-  height: 184px;
+  height: 93px;
   border-radius: 28px;
   background-color: rgba(255, 255, 255, 0.25);
-  margin: 30px 17px 15px 18px;
+  margin: 0px 17px 15px 18px;
 }
 
 .icon-background {
@@ -16,7 +16,10 @@
 }
 
 .inline {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .icon {
@@ -25,12 +28,11 @@
   height: 27.32px;
 }
 
-.activity-text {
+.steps-text {
   color: #ffffff;
   text-align: left;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  margin: 5px;
-  margin-left: 0px;
+  margin: 5px 0px 5px 5px;
 }
 
 .title {
@@ -44,14 +46,12 @@
   opacity: 70%;
 }
 
-.average-time {
-    font-size: 38px;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    color: #ffffff;
-    text-align: left;
-    font-weight: bold;
-    margin-top: 7px;
-    height: 45px;
-    margin-bottom: 46px;
-    margin-left: 76px; 
+.total-steps {
+  font-size: 38px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  height: 45px;
+  margin-right: 30px;
+  margin-top: 10px;
 }
