@@ -1,0 +1,57 @@
+.activity {
+  width: 340px;
+  height: 184px;
+  border-radius: 28px;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin: 30px 17px 15px 18px;
+}
+
+.icon-background {
+  display: inline-block;
+  margin: 25px 15px 20px 20px;
+  height: 40.98px;
+  width: 40.98px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.inline {
+  display: inline-block;
+}
+
+.icon {
+  margin: 6.83px;
+  width: 27.32px;
+  height: 27.32px;
+}
+
+.activity-text {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 5px;
+  margin-left: 0px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: 16px;
+  opacity: 70%;
+}
+
+.average-time {
+    font-size: 38px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 7px;
+    height: 45px;
+    margin-bottom: 46px;
+    margin-left: 76px; 
+}

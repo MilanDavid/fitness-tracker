@@ -8,7 +8,7 @@ export class DataService {
 
   constructor(private http: HttpClient) { }
 
-  // http service for getting data from api
+  // http call for getting data from api
   getData() {
     return this.http.get('https://api.myjson.com/bins/1gwnal')
   }

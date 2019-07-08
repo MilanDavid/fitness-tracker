@@ -9,6 +9,7 @@ import { WelcomeComponent } from './home/welcome/welcome.component';
 import { WeekComponent } from './home/week/week.component';
 import { DataService } from './services/data.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ActivityComponent } from './home/activity/activity.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     DayDetailsComponent,
     WelcomeComponent,
-    WeekComponent
+    WeekComponent,
+    ActivityComponent
   ],
   imports: [
     BrowserModule,
