@@ -1,5 +1,5 @@
 <app-welcome></app-welcome>
-<app-week></app-week>
-<app-activity></app-activity>
-<app-steps></app-steps>
-<app-calories></app-calories>
+<app-week [week]="week"></app-week>
+<app-activity [averageHour]="averageHour" [averageMinutes]="averageMinutes" [dailyTotals]="dailyTotals"></app-activity>
+<app-steps [totalSteps]="totalSteps"></app-steps>
+<app-calories [burnedCalories]="burnedCalories"></app-calories>

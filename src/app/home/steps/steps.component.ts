@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { DataService } from 'src/app/services/data.service';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-steps',
@@ -7,16 +6,11 @@ import { DataService } from 'src/app/services/data.service';
   styleUrls: ['./steps.component.scss']
 })
 export class StepsComponent implements OnInit {
-  totalSteps = 0;
+  @Input('totalSteps') totalSteps = 0;
 
-  constructor(private dataService: DataService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.dataService.getData().subscribe((data: Array<any>) => {
-      data.forEach(el => {
-        this.totalSteps += el.steps;
-      })
-    })
   }
 
 }

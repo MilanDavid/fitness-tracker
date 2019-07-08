@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { DataService } from 'src/app/services/data.service';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-calories',
@@ -8,17 +7,11 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class CaloriesComponent implements OnInit {
 
-  burnedCalories = 0;
+  @Input('burnedCalories') burnedCalories = 0;
 
-  constructor(private dataService: DataService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.dataService.getData().subscribe((data: Array<any>) => {
-      data.forEach(el => {
-        this.burnedCalories += el.steps;
-      })
-      this.burnedCalories = Math.round(this.burnedCalories * 0.05);
-    })
   }
 
 }
