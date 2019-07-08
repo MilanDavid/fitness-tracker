@@ -11,6 +11,7 @@ import { DataService } from './services/data.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ActivityComponent } from './home/activity/activity.component';
 import { StepsComponent } from './home/steps/steps.component';
+import { CaloriesComponent } from './home/calories/calories.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { StepsComponent } from './home/steps/steps.component';
     WelcomeComponent,
     WeekComponent,
     ActivityComponent,
-    StepsComponent
+    StepsComponent,
+    CaloriesComponent
   ],
   imports: [
     BrowserModule,
