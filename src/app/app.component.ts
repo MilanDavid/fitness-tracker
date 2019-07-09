@@ -1,10 +1,19 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { trigger, style, state, transition, animate } from '@angular/animations';
+import { slideInAnimation } from './route-animation';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  animations: [
+    slideInAnimation
+  ]
 })
 export class AppComponent {
-  title = 'fitness-tracker';
+
+  prepareRoute(outlet: RouterOutlet) {
+    return ;
+  }
 }

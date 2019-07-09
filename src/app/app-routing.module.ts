@@ -4,8 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { DayDetailsComponent } from './day-details/day-details.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'day-detail/:timestamp', component: DayDetailsComponent }
+  { path: '', component: HomeComponent, data: {animation: 'Home'} },
+  { path: 'day-detail/:timestamp', component: DayDetailsComponent, data: {animation: 'Day'}}
 ];
 
 @NgModule({
