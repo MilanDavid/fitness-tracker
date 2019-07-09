@@ -1,0 +1,31 @@
+.inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  text-align: center;
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.subtitle {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin-bottom: 0px;
+  color: #B3B3B3;
+  font-size: 18px;
+}
+
+.title {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #00B6A3;
+  font-size: 40px;
+}
+
+.vl {
+  border-left: 1px solid #EBEBEB;
+  height: 78px;
+  margin: auto;
+}

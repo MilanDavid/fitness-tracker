@@ -33,6 +33,7 @@ export class HomeComponent implements OnInit {
 
         this.burnedCalories += el.steps;
         this.totalSteps += el.steps;
+        
         if (!this.daysSet.has(moment(el.timestamp).format('ddd'))) {
           this.daysSet.add(moment(el.timestamp).format('ddd'));
           this.week.push(el);

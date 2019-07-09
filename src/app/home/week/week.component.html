@@ -1,7 +1,7 @@
 <ul class="week">
-  <li *ngFor="let wk of week" class="day">
-    <div [routerLink]="['/day-detail/',wk.timestamp]">
-      <p class="day-button" >{{ wk.timestamp | date: 'd' | uppercase }} <br> {{ wk.timestamp | date: 'EEE' | uppercase }}</p>
-    </div>
+  <li *ngFor="let wk of week" class="day" [routerLink]="['/day-detail/',wk.timestamp]" routerLinkActive="active"
+    (click)="dataService.changeDay(wk.timestamp)">
+    <p class="day-button">{{ wk.timestamp | date: 'd' | uppercase }} <br> {{ wk.timestamp | date: 'EEE' | uppercase }}
+    </p>
   </li>
 </ul>

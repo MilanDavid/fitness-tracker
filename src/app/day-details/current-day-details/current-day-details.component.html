@@ -1,0 +1,20 @@
+<div class="current-day-details">
+  <div class="inline">
+    <svg class="progress-ring" width="231" height="231">
+      <circle class="progress-ring__circle" stroke="#00B6A3" stroke-width="8" fill="transparent" r="110" cx="50%"
+        cy="50%" />
+    </svg>
+  </div>
+  <div class="icon-text">
+    <div class="icon-background">
+      <img class="icon" src="../../../assets/baseline-directions_run-24px.svg">
+    </div>
+    <p class="subtitle">Steps</p>
+    <p class="title">{{ sumOfSteps }}</p>
+  </div>
+  <div>
+    <p class="motivation-subtitle">Very good</p>
+    <p class="motivation-title">Keep Going!</p>
+  </div>
+  <app-current-day-progress [sumOfSteps]="sumOfSteps"></app-current-day-progress>
+</div>

@@ -12,6 +12,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ActivityComponent } from './home/activity/activity.component';
 import { StepsComponent } from './home/steps/steps.component';
 import { CaloriesComponent } from './home/calories/calories.component';
+import { CurrentDayComponent } from './day-details/current-day/current-day.component';
+import { CurrentDayDetailsComponent } from './day-details/current-day-details/current-day-details.component';
+import { CurrentDayProgressComponent } from './day-details/current-day-progress/current-day-progress.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { CaloriesComponent } from './home/calories/calories.component';
     WeekComponent,
     ActivityComponent,
     StepsComponent,
-    CaloriesComponent
+    CaloriesComponent,
+    CurrentDayComponent,
+    CurrentDayDetailsComponent,
+    CurrentDayProgressComponent
   ],
   imports: [
     BrowserModule,

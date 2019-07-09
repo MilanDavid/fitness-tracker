@@ -26,3 +26,11 @@
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
+
+ul li.active {
+  background-color: white;
+  p {
+    color: rgba(0, 182, 164, 0.7);
+    font-weight: bold;
+  }
+}
