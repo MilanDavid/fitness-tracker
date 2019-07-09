@@ -1,3 +1,5 @@
+@import '../../../variables';
+
 .inline {
   display: flex;
   flex-direction: row;
@@ -9,18 +11,16 @@
 }
 
 .subtitle {
-  font-family: "Helvetica Neue", Arial, sans-serif;
   margin-bottom: 0px;
-  color: #B3B3B3;
+  color: $mesuresColor;
   font-size: 18px;
 }
 
 .title {
-  font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #00B6A3;
+  color: $titleColor;
   font-size: 40px;
 }
 

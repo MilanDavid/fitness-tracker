@@ -1,8 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import './variables';
+
 body {
     height: 812px;
     width: 375px;
-    background-image: linear-gradient(152deg, #34C7A0, #008AA2);
+    background-image: linear-gradient(152deg, $themeColor1, $themecolor2);
     margin: 0px;
     padding: 0px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }

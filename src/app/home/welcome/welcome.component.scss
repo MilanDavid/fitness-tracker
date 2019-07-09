@@ -1,32 +1,22 @@
+@import '../../../variables';
+@import '../../../mixins';
+
 .welcome {
+    @include borderRadius();
     height: 117px;
-    background-color: #FFFFFF;
-    border-radius: 28px;
+    background-color: $cardBackgroundColor;
     margin: 0px 17px 0px 18px;
 }
 
 .title {
+    @include welcome-title-font();
     margin-left: 27px;
     padding-top: 24px;
     margin-bottom: 10px;
-    height: 40px;
-    width: 162px;
-    font-size: 34px;
-    font-weight: bold;
-    text-align: left;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #00B6A3;
 }
 
 .subtitle {
+    @include welcome-subtitle-font();
     margin-top: 0px;
     margin-left: 27px;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: justify;
-    width: 188px;
-    height: 19px;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #898694;
 }

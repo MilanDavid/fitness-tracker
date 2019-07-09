@@ -1,8 +1,11 @@
+@import '../../../variables';
+@import '../../../mixins';
+
 .current-day {
+  @include borderRadius();
   width: 340px;
   height: 117px;
-  background-color: rgba(255, 255, 255, 0.25);
-  border-radius: 28px;
+  background-color: $defaultCardBackgroundColor;
   margin: 20px 17px 0px 18px;
 }
 
@@ -13,8 +16,7 @@
   font-size: 34px;
   font-weight: bold;
   text-align: left;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  color: white;
+  color: $defaultTextColor;
 }
 
 .subtitle {
@@ -25,8 +27,7 @@
   text-align: justify;
   width: 188px;
   height: 19px;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.7);
+  color: $dafaultSubtitleColor;
 }
 
 .inline {

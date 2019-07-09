@@ -1,0 +1,19 @@
+@import './variables';
+
+@mixin welcome-subtitle-font {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: $subtitleColor;
+}
+
+@mixin welcome-title-font {
+    font-size: 34px;
+    font-weight: bold;
+    color: $titleColor;
+    text-align: left;
+}
+
+@mixin borderRadius {
+    border-radius: 28px;
+}
