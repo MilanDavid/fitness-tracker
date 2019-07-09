@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, OnChanges } from '@angular/core';
+import { Component, Input, OnChanges } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 
 @Component({

@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, AfterContentInit } from '@angular/core';
+import { Component, Output, AfterContentInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../services/data.service';
 import * as moment from 'moment';
